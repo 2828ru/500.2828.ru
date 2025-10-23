@@ -1,0 +1,47 @@
+@media screen and (max-width:480px){
+html{
+text-align:left;
+}
+h4,h5,h6{
+text-align:left;
+margin:20px 0 3px;
+padding:10px;
+color:#46b980;
+}
+p{
+margin:10px;
+}
+.pic li{width:100%;}
+.mr{
+text-align:center;
+padding:10px;
+}
+.a.m1tel:after{
+font-size:1.2em;
+}
+li{
+position: relative;
+display: block;
+padding:10px 6px 10px 52px;
+margin:3px;
+background:#F4F3F0;
+}
+ol li:before{
+position: absolute;
+left:5px;
+top: 50%;
+margin-top:-20px;
+background:#fff;
+color:#404040;
+opacity:.7;
+height:40px;
+width:40px;
+line-height:33px;
+border:3px solid #46b980;
+text-align: center;
+border-radius:50%;
+}
+.dn:after{
+content:"© 2003..2023 Москва. Михаил КАЛИНИН";
+}
+}
